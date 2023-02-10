@@ -39,5 +39,5 @@ console.log("sliced by index"+textSlicedByIndex)
 
 //replaced method
 let newText = text.replace("dummy","New")
-console.log("New Text : "+newText)
+console.log("New Text :"+newText)
 
