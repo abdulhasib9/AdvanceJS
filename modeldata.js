@@ -31,3 +31,13 @@ let text ="my dummy text "
 let indexOfDummy = text.indexOf("dummy")
 console.log(indexOfDummy)
 
+//slice method
+let textSlice = text.slice(1)
+console.log("sliced text"+textSlice)
+let textSlicedByIndex = text.slice(0,5)
+console.log("sliced by index"+textSlicedByIndex)
+
+//replaced method
+let newText = text.replace("dummy","New")
+console.log("New Text : "+newText)
+
