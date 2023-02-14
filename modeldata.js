@@ -58,3 +58,10 @@ let currentUser = null
 let undefinedTest 
 console.log(currentUser)
 console.log(undefinedTest)
+
+console.log("--------------------------------- Math Object --------------------------------")
+console.log(Math.PI)
+console.log(Math.floor(3.653));
+console.log(Math.floor(Math.random()*3))
+console.log(Math.pow(23,4))
+
