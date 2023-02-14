@@ -41,3 +41,9 @@ console.log("sliced by index"+textSlicedByIndex)
 let newText = text.replace("dummy","New")
 console.log("New Text :"+newText)
 
+//String themplate characters
+console.log(`I amd ${3+43}`)
+let animal ="dog";
+let sound ="whoa whao"
+console.log(`${animal.toUpperCase()} + ${sound}`);
+
