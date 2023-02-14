@@ -41,9 +41,20 @@ console.log("sliced by index"+textSlicedByIndex)
 let newText = text.replace("dummy","New")
 console.log("New Text :"+newText)
 
+console.log("--------------------------------- String Themplate litterals --------------------------------")
 //String themplate characters
 console.log(`I amd ${3+43}`)
 let animal ="dog";
 let sound ="whoa whao"
 console.log(`${animal.toUpperCase()} + ${sound}`);
 
+console.log("--------------------------------- Null Vs Undefined --------------------------------")
+//null and undefined 
+/* 
+    - setting a variable intentionaly to nothing is null 
+    - the variable that does not has the value is undefined 
+*/
+let currentUser = null
+let undefinedTest 
+console.log(currentUser)
+console.log(undefinedTest)
