@@ -8,4 +8,13 @@ console.log('7'==7); //true
 console.log('7'===7);//false
 
 console.log("--------------------------------- IF statement --------------------------------")
+let rating =3;
+if(rating<5){
+    console.log("sorry Your are not a superstar");
+}
+
+let num = 37;
+if(num%2 !==0){
+    console.log("Odd Number")
+}
 
