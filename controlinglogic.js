@@ -48,3 +48,7 @@ switch(day){
         console.log("invalid day")
 
 }
+
+console.log("--------------------------------- Ternary Operator --------------------------------")
+let n = 3;
+num==2?console.log("lucky"):console.log("not lucky")
