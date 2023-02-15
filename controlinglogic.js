@@ -27,3 +27,10 @@ if(rating ===3){
 }
 
 console.log("--------------------------------- else Statement --------------------------------")
+if(rating ===4){
+    console.log("you are a super star")
+}else if(rating<3){
+    console.log("sorry you are not super star")
+}else{
+    console.log("invalid rating")
+}
