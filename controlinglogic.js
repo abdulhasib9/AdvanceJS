@@ -18,3 +18,12 @@ if(num%2 !==0){
     console.log("Odd Number")
 }
 
+console.log("--------------------------------- Else IF --------------------------------")
+
+if(rating ===3){
+    console.log("you are a super star")
+}else if(rating<3){
+    console.log("sorry you are not super star")
+}
+
+console.log("--------------------------------- else Statement --------------------------------")
