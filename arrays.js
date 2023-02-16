@@ -18,3 +18,10 @@ animals.push("cat")
 console.log(animals);
 animals.pop() //remove the last element
 console.log(animals); 
+console.log("--------------------------------- shift and unshift methods --------------------------------")
+let test=[23,54,232,44,"hello"]
+console.log(test);
+test.unshift("Hello")
+console.log(test);
+test.shift();
+console.log(test);
