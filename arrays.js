@@ -25,3 +25,30 @@ test.unshift("Hello")
 console.log(test);
 test.shift();
 console.log(test);
+console.log("--------------------------------- More array methods --------------------------------")
+let fruits = ["banana","mango"]
+let vegi =["spanich","cilantro"]
+let fruitvegi = fruits.concat(vegi)
+console.log(fruitvegi);
+
+//include and indexof
+let ingredients =["fish","shrimp","lamb"]
+console.log(ingredients.includes("fish"));
+console.log(ingredients.includes("fish",1))
+
+console.log(ingredients.indexOf("shrimp"));
+
+//join and reverse
+console.log(ingredients.reverse());
+//join join all array elements together
+console.log(ingredients.join());
+
+
+//slice
+let animals2 = ["fish","whale","dog","goat","wolf"]
+let swimmers = animals2.slice(0,2);
+console.log(swimmers)
+let reverseslice = animals.slice(-3)
+console.log(reverseslice);
+let copy = animals2.slice();
+console.log(copy);
