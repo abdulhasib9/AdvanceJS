@@ -52,3 +52,13 @@ let reverseslice = animals.slice(-3)
 console.log(reverseslice);
 let copy = animals2.slice();
 console.log(copy);
+
+//splice method
+//splice will delete and add items at any place in array 
+animals2.splice(1,0,"new from splice method")
+console.log(animals2);
+
+console.log("--------------------------------- sorting array  --------------------------------")
+
+let nums =[1,3,45,1,2,43,221]
+console.log(nums.sort()); //sort arrays as string litterals
