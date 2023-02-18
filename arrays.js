@@ -62,3 +62,13 @@ console.log("--------------------------------- sorting array  ------------------
 
 let nums =[1,3,45,1,2,43,221]
 console.log(nums.sort()); //sort arrays as string litterals
+
+//const arrays
+let color =["blue"]
+color.push("Red")
+
+//color =["fodd"] ->this will throw the error 
+
+console.log("--------------------------------- Nested Arrays  --------------------------------")
+const colors =[["blue","light blue"],["pink","lightpink"]]
+console.log(colors[1][1]);
