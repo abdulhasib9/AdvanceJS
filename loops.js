@@ -47,3 +47,33 @@ for( let game1 =0;game1<gameBoard.length;game1++){
         console.log(items[game2])
     }
 }
+
+console.log("--------------------------------- while loop --------------------------------")
+let jj=0;
+while(jj<=5){
+    console.log(jj)
+    jj++
+}
+
+console.log("--------------------------------- break statement --------------------------------")
+let jjj=0;
+while(jjj<=5){
+
+    console.log(jjj)
+    
+    if(jjj===3)
+    break
+    jjj++
+}
+
+console.log("--------------------------------- for of loop --------------------------------")
+//for of  loop is not supported by the internet explorer
+let food =["burger","chicken","fish"]
+for (const items of food) {
+    console.log(items)
+}
+
+for(let char of "my name is abdul hasib yousufzai")
+{
+    console.log(char)
+}
