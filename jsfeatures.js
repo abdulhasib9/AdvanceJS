@@ -21,3 +21,18 @@ console.log(spreadPets)
 
 let randoms = [..."Hello World".toUpperCase(),{...spreadPets}]
 console.log(randoms)
+
+
+//arguments objects
+function sum(one,two){
+    let argArray = [...arguments]
+    console.log(arguments)
+console.log(...arguments)
+let sum = argArray.reduce((c,v)=>{return c+v})
+console.log(sum)
+}
+sum(12,43,3,44,3)
+
+//arguments objects not available in arrow functions
+
+//rest parameters
