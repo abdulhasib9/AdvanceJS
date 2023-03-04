@@ -162,6 +162,7 @@ const votes = ['y', 'y', 'n', 'y', 'n', 'y', 'n', 'y', 'n', 'n', 'n', 'y', 'y'];
 //   return tally;
 // }, {})
 
+console.log("testing the new m1 max")
 // The shorter version:
 const results = votes.reduce((tally, val) => {
   tally[val] = (tally[val] || 0) + 1;
